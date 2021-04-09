@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #edeef7, #81c8e4);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+#row{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 25px;
+    box-shadow: 0 2px 15px rgba(2,2,2, 0.5);
+}
+
+#for__you img{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+.college__link{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 23px;
+    background-color: #68bee0;
+    color: aliceblue;
+    transition: 0.2s linear;
+}
+
+.college__link:hover{
+    background-color: #3652a1;
+    color: aliceblue;
+}
+
+#rules__link{
+    font-size: 19px;
+}

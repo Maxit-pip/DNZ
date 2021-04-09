@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #edeef7, #81c8e4);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+#row{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 25px;
+    box-shadow: 0 2px 15px rgba(2,2,2, 0.5);
+}
+
+#video{
+    border: 2px solid #7868e6;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#img{
+    width: 100%;
+    height: auto;
+}
+
+#carouselExampleControls{
+    border: 2px solid #7868e6;
+}

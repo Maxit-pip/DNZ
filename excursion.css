@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #edeef7, #a0e1fa);
+    min-height: 100vh;
+}
+
+.main__title{
+    display: flex;
+    justify-content: center;
+    margin: 140px 0 50px;
+    font-size: 50px;
+    color: #7868e6;
+}
+
+#carouselExampleControls{
+    border: 2px solid #7868e6;
+}
+
+#video{
+    border: 2px solid #7868e6;
+    margin: 60px 0;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+}
